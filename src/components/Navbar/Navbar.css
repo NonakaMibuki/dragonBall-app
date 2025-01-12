@@ -1,0 +1,15 @@
+.header__container {
+    margin: 40px auto 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.header__img  {
+    width: 55%;
+}
+
+@media(max-width:599px) {
+    .header__img {
+        width: 80%;
+    }
+}

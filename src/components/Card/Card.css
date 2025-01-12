@@ -1,0 +1,91 @@
+.card {
+    width: 100%;
+    height: 76vh;
+    background-color: #3B3E44;
+    border-radius: 13px;
+    position: relative;
+  }
+  
+  .cardImg {
+    width: 100%;
+    height: 60%;
+    background-image: url(https://web.dragonball-api.com/images-compress/89980.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px 13px 0 0;
+  }
+  
+  .cardImg img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    max-height: 400px;
+    object-fit: contain;
+    object-position: center center;
+    transition: all .6s;
+  }
+  
+  .cardImg img:hover {
+    scale: 1.15;
+  }
+  
+  .cardImg__info {
+    text-align: left;
+    margin-left: 15px;
+    color: #fff;
+    font-size: 16.5px;
+    font-weight: 700;
+  }
+  
+  .cardImg__info p {
+    margin: 0;
+  }
+  
+  h3 {
+    position: relative;
+    font-size: 23.5px;
+    margin: 13px 0 6px;
+    z-index: 999;
+    font-weight: 800;
+  }
+  
+  .typesInfo__box {
+    margin-top: 8px;
+  }
+  
+  p.cara__info {
+    color: #FBC02C;
+    margin: 0;
+  }
+
+  @media(max-width:599px) {
+
+    .card {
+      height: 70vh;
+    }
+
+    .cardImg {
+      height: 60%;
+    }
+
+    .cardImg img {
+      min-height: 390px;
+      max-height: 390px;
+    }
+
+    .cardImg__info {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 23px;
+    }
+
+    .typesInfo__box {
+      margin-top: 8px;
+    }
+
+  }
