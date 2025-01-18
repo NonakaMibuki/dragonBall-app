@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dragonBall-app/static/css/main.c8114090.css",
+    "main.js": "/dragonBall-app/static/js/main.071db514.js",
+    "index.html": "/dragonBall-app/index.html",
+    "main.c8114090.css.map": "/dragonBall-app/static/css/main.c8114090.css.map",
+    "main.071db514.js.map": "/dragonBall-app/static/js/main.071db514.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8114090.css",
+    "static/js/main.071db514.js"
+  ]
+}
